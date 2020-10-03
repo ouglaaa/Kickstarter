@@ -1,0 +1,40 @@
+{
+  "messageFormat": "/infra/network/{}",
+  "targets": [
+    {
+      "name": "Livebox",
+      "ips": [
+        "1.1.1.1",
+        "8.8.4.4",
+        "208.67.222.222"
+      ],
+      "marker": "livebox",
+      "timeout": 5,
+      "delay": 5,
+      "maxTimeout": 10,
+      "digitalPin": null
+    },
+    {
+      "name": "Cave",
+      "ips": [
+        "192.168.1.200"
+      ],
+      "marker": "cave",
+      "timeout": 2,
+      "delay": 10,
+      "maxTimeout": 2,
+      "digitalPin": 2
+    },
+    {
+      "name": "Cavity",
+      "ips": [
+        "192.168.1.67"
+      ],
+      "marker": "cavity",
+      "timeout": 2,
+      "delay": 10,
+      "maxTimeout": 2,
+      "digitalPin": 3
+    }
+  ]
+}
