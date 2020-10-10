@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Restarter.iml" filepath="$PROJECT_DIR$/Restarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restarter.iml" filepath="$PROJECT_DIR$/restarter.iml" />
     </modules>
   </component>
 </project>
